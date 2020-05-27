@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './component/Header/Index'
 import './style.css'
-import Main from './pages/main/index'
+import Routes from './routes'
 
 
 // function App() {
@@ -16,7 +16,7 @@ const App = () => (
   <div>
     <Header />
     
-    <Main />
+    <Routes />
   </div>
 )
 
